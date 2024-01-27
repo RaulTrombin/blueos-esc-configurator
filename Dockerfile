@@ -74,4 +74,7 @@ LABEL tags='[\
   "development"\
 ]'
 
+
+RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/privkey.pem -out /etc/nginx/fullchain.pem -subj "/C=US/ST=California/L=Torrance/O=BlueRobotics/CN=bluerobotics.com"
+
 ENTRYPOINT ["/entrypoint.sh"]

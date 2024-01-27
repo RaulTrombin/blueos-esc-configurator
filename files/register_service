@@ -1,6 +1,6 @@
 {
-    "name": "Jupyter",
-    "description":"Extension to start coding with python examples and create projects.",
+    "name": "Esc-Configurator",
+    "description":"Extension to configure the esc through serial port.",
     "icon": "mdi-language-python",
     "company":"Blue Robotics",
     "version": "0.0.0",
